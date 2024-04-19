@@ -4,7 +4,7 @@ const Navbar = () => {
             <h1>React Blog</h1>
             <div className="links">
                 <a href="/">Home</a>
-                <a href="/create" style={{color: 'white', backgroundColor: '#406343', borderRadius: '8px', padding: '8px'}}>New Blog</a>
+                <a href="/blog">Blog</a>
             </div>
         </nav>
       );
