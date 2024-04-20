@@ -15,7 +15,7 @@
   border-bottom: 5px solid #f2f2f2;
 }
 .navbar h1 {
-  color: #A6D1E6;
+  color: #149ECA;
 }
 .navbar .links {
   margin-left: auto;
@@ -27,7 +27,7 @@
   text-decoration: none;
 }
 .navbar a:hover {
-  color: #c0dbea;
+  color: #149ECA;
   text-decoration: none;
 }
 
@@ -38,11 +38,8 @@
 }
 
 .content h2 {
-
-  font-weight:500;
+  font-weight: 500;
 }
-
-
 
 /* end */
 
@@ -70,19 +67,48 @@
 /* end */
 
 /* blogs preview */
-.blog-preview{
+.blog-preview {
   padding: 10px 16px;
   margin: 16px 0;
-  border-bottom: 5px solid #BA90C6;
+  border-bottom: 5px solid #ba90c6;
+  transition: box-shadow 0.4s ease-in-out;
 }
 
-.blog-preview:hover{
-  box-shadow: 1px 3px 5px #3d3c42;
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px #000000;
 }
 
-.blog-preview h2{
+.blog-preview h2 {
   font-size: 20px;
-  color: #3D3C42;
+  color: #3d3c42;
   margin-bottom: 5px;
   font-weight: 700;
+}
+
+.blog-list {
+  padding: 10px 16px;
+  margin: 16px 0;
+  border-bottom: 5px solid #f2f2f2;
+}
+
+.delete-btn {
+  border: none;
+  background-color: #7f5283;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ffffff;
+  margin-left: auto;
+}
+.delete-btn:hover {
+  border: none;
+  background-color: #ba90c6;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ffffff;
+  margin-left: auto;
+}
+
+.blog-body {
+  display: flex;
+  align-items: center;
 }
