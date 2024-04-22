@@ -15,7 +15,7 @@
   border-bottom: 5px solid #f2f2f2;
 }
 .navbar h1 {
-  color: #149ECA;
+  color: #149eca;
 }
 .navbar .links {
   margin-left: auto;
@@ -27,7 +27,7 @@
   text-decoration: none;
 }
 .navbar a:hover {
-  color: #149ECA;
+  color: #149eca;
   text-decoration: none;
 }
 
@@ -112,3 +112,4 @@
   display: flex;
   align-items: center;
 }
+
